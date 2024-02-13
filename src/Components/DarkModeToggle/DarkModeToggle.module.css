@@ -1,0 +1,30 @@
+.container{
+width: 110;
+height: 30px;
+border: 1px solid var(--color-primary);
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 4px;
+margin-top: auto;
+margin-bottom: auto;
+position: relative;
+}
+.icon{
+
+
+width: 25px;
+height: 25px;
+}
+.switch{ 
+    width: 30px; 
+    aspect-ratio: 1/1; 
+    background-color: var(--color-primary);
+     border-radius: 50%;
+      position: absolute;
+       -webkit-border-radius: 50%;
+        -moz-border-radius: 50%; 
+        -ms-border-radius: 50%;
+         -o-border-radius: 50%;
+         cursor: pointer;
+}

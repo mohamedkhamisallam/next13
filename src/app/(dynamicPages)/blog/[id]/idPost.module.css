@@ -1,0 +1,29 @@
+.imageContainer{
+    position: relative;
+    width: 70%;
+    height: 300px;
+    margin: auto;
+}
+
+
+
+.image{
+    object-fit: contain;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin: 15px;
+}
+
+.author{
+    background-color:red;
+    position: absolute;
+    color: #111;
+}
+.text{
+    columns: 2;
+    text-align: justify;
+    padding-top: 10px;
+}
